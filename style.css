@@ -1,7 +1,12 @@
 body {
-  position: absolute;
   padding: 10px;
   font-size: 14px;
   line-height: 1.4;
   font-family: "Arial", sans-serif;
+}
+
+.main-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
