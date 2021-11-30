@@ -35,6 +35,17 @@ body {
 
 .main-menu ul {
   margin: 0;
-  padding: 5px 0 5px 30px;
+  padding: 5px 0;
+  padding-left: 30px;
   list-style: none;
 }
+
+.main-menu li li a {
+  color:black;
+  padding:3px 0px 3px 0px;
+  }
+  
+.main-menu li li a:hover {
+  background:none;
+  text-decoration:underline;
+  }
