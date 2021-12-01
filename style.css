@@ -1,26 +1,24 @@
 body {
   padding: 10px;
-  font-family: "Arial", sans-serif;
   font-size: 14px;
   line-height: 1.4;
+  font-family: "Arial", sans-serif;
 }
 
 .main-menu {
   margin: 0;
-  padding: 10px 15px;
+  padding: 0;
   list-style: none;
-  background-color: #f5f5f5;
   border: 1px solid #e5e5e5;
 }
 
 .main-menu li {
-  display:inline;
-  margin-right:5px;
+  display: inline-block;
+  margin-right: 5px;
 }
 
-
-
 .main-menu a {
+  display: block;
+  padding: 8px 10px;
   color: #0088cc;
-
 }
