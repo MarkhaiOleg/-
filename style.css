@@ -30,13 +30,20 @@ body {
 }
 
 .main-menu .sub-menu {
+  display:none;
   position: absolute;
-  top:5px;
-  left:170px;
-  z-index:10;
-  width:150px;
+  top: 5px;
+  left: 170px;
+  z-index: 10;
+  width: 150px;
   margin: 0;
   padding: 0;
   list-style: none;
   background-color: #fcf8e3;
+}
+
+/* Cелектор для подменю, если навести курсор на родительский элемент верхнего меню */
+
+.main-menu > li:hover .sub-menu {
+  display:block;
 }
